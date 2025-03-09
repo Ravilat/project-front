@@ -1,0 +1,32 @@
+.btns-pages {
+    display: flex;
+    align-items: center;
+}
+.inner-btns-pages{
+    display: flex;
+    align-items: center;
+}
+
+.btns-pages > * {
+    cursor: pointer;
+}
+
+.num-page {
+    padding: 5px;
+    border: 1px solid #e3c596;
+    color: #e3c596;
+}
+
+.num-page.num-active {
+    border: 1px solid #082eee;
+    color: #082eee;
+}
+.output-Table {
+    border: 1px solid #831633;
+    color: #e36eb0;
+}
+.table-danger {
+    border: 1px solid #0a057e;
+    color: #380309;
+    background: #b68a48;
+}
